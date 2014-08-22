@@ -1,0 +1,153 @@
+body{
+    background: #bfbfbf;
+    font-family: 'PT Sans', sans-serif;
+}
+.btn-active{
+    background: #ffba00 !important;
+    color: #fff;
+}
+.btn-listo{
+    background: #00adff !important;
+    color: #fff;
+}
+header{
+    background: url(../images/bg-header.gif)no-repeat;
+    color: #fff;
+}
+.container{
+    background: #30333e;
+}
+.download-pdf{
+    background: #50556b;
+    padding: 6px;
+    position: relative;
+}
+.download-pdf a{
+    color: #fff;
+    font-size: 1.2em;
+}
+.icon-arrow-down2{
+    font-size: 2em;
+    color: #50556b;
+    position: absolute;
+    left: 20.4em;
+    top:1.3em;
+    z-index: 1000;
+}
+.icon-play2{
+    color: #fff;
+    font-size: 2em;
+    padding-top: 6px;
+}
+.nav{
+    margin: 40px;
+}
+.nav li a.btn-custom{
+    color: #fff;
+    background: #808080;
+    border-radius: 3px;
+    text-align: center;
+    margin: 5px;
+}
+.btn-custom .txt-btn p{
+    font-size: 1.2em;
+    line-height: 70%;
+}
+#comentarios{
+    background: #addadc;
+    padding: 20px;
+    height: 1075px;
+}
+#comentarios form input#hcb_form_name{
+    margin-bottom: 15px;
+    padding: 0 120px 0 5px;
+    height: 40px;
+}
+.chat{
+    padding: 0 30px;
+}
+#comments_list{
+    height: 665px;
+    overflow: scroll;
+}
+#HCB_comment_box h3, .hcb-icon, #no_comments{
+    display: none;
+}
+
+#HCB_comment_box .btn, #HCB_comment_box input[type="submit"].btn{
+    display: block;
+    clear: both;
+    background: url(../images/bg_input.gif) no-repeat 20px 15px;
+    padding: 0 110px;
+    height: 86px;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#list-videos{
+    background: #fbf7cf;
+    padding: 30px;
+    height: 1075px;
+}
+#list-videos h2{
+    margin-bottom: 50px;
+}
+.descripcion-videos{
+    margin-bottom: 30px;
+}
+.proximos-videos .descripcion-videos h4{
+    font-weight: bold;
+    margin: 0;
+}
+    
+footer{
+    background: #30333e;
+    color: #fff;
+    padding: 15px;
+}
+
+form.form2{
+    border: 4px dashed red;
+    padding: 20px 20px 70px 20px;
+    margin-top: 60px;
+}
+form .button{
+    background: #f6cb3b;
+    border-bottom: 5px solid #e0b232;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    color: #3d4252;
+    height: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+form .button:hover{
+    background: #f8d251;
+    
+}
+i{
+    font-size: 2em;
+    color: #fff;
+    position: relative;
+    top: 7px;
+}
+@media (max-width: 340px){
+    #comentarios form input#hcb_form_name{
+        padding: 0 60px 0 5px;
+    }
+    #HCB_comment_box .btn, #HCB_comment_box input[type="submit"].btn{
+        overflow: hidden;
+        background: none;
+        padding: 0;
+        color: #000;
+}
+    #list-videos{
+        height: auto;
+    }
+}
+    
+
