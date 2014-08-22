@@ -1,0 +1,169 @@
+body{
+    background: #bfbfbf;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    background: #3d4252;
+    height: 60px;
+    position: relative;
+}
+
+header figure{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    background: #fcf7cf;
+    padding: 1px;
+}
+.content .icon-arrow-down{
+    color: #fcf7cf;
+    position: relative;
+    font-size: 3em;
+    right: 10.3em;
+    top:1.3em;
+}
+.content h1{
+    font-weight: bold;
+    text-align: center; 
+    font-size: 2.1em;
+}
+.content p span{
+    color: #a01127;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+}
+.coments{
+    position: relative;
+}
+.coments .icon-arrow-down{
+    color: #3d4252;
+    font-size: 3em;
+    position: relative;
+    left: -.5em;
+    bottom: -.7em;
+}
+form{
+    background: url(../images/bg_form.png) no-repeat 100px 0;
+    height: 251px;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+.description{
+    font-size: 1.2em;
+    text-align: justify;
+}
+form .button{
+    background: #f6cb3b;
+    border-bottom: 5px solid #e0b232;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    color: #3d4252;
+    height: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+form .button:hover{
+    background: #f8d251;
+    
+}
+.prefooter{
+    background: #3d4252;
+    color: #fff;
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+ul.descubriras li{
+    margin-bottom: 20px;
+    background: url(../images/bullet.gif) no-repeat;
+    padding-left: 40px;
+}
+.prefooter2{
+    background: #fcf7cf;
+    padding-top: 30px;
+}
+.form2{
+    background: none;
+}
+.flecha2{
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+footer{
+    background: #3d4252;
+    color: #fff;
+    
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+footer li a{
+    color: #fff;
+}
+footer .icon-arrow-up{
+    position: absolute;
+    top:-.4em;
+    font-size: 3em;
+    color: #3d4252;
+}
+
+@media (max-width: 768px){ 
+
+    form{
+        background:none;
+    }
+}
+
+@media (max-width: 992px){ 
+
+    form{
+        background-position: 0 0;
+    }
+}
+div.gracias{
+    text-align: center;
+}
+div.gracias p.nospam{
+    border: 3px dotted #FFCC00;
+    padding: 15px;
+    width: 455px;
+    margin: 10px auto;
+    text-align: justify;
+}
+figure.mail img{
+    border: 3px dashed red;
+}
+figure.mail2{
+    text-align: center;
+}
+ul.instrucciones{
+    width: 720px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1.2em;
+}
+ul.instrucciones li{
+    margin-bottom: 15px;
+}
+.socialshare{
+    padding: 20px 0;
+}
+.socialshare li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 760px){
+    div.gracias p.nospam, ul.instrucciones{
+        width: 90%;
+    }
+}
